@@ -19,7 +19,13 @@ app.controller('hymnController', ['$scope', '$resource',
                 $scope.hymns.push(result);
                 $scope.hymnName = '';
             });    
-        }; 
+        };
+
+        $scope.UpdateHymn = function(){
+            var hymn = new Hymn();
+
+            //TODO update of given hymn
+        } 
 
 }]); 
   
