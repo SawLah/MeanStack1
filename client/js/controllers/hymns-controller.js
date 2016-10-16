@@ -25,7 +25,7 @@ app.controller('hymnController', ['$scope', '$resource',
             var hymn = new Hymn();
 
             //TODO update of given hymn // need id of hymn as params
-            var today = new Date();
+            var today = new Date(); // use it later
             
         } 
 
