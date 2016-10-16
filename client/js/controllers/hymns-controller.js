@@ -24,7 +24,7 @@ app.controller('hymnController', ['$scope', '$resource',
         $scope.UpdateHymn = function(){
             var hymn = new Hymn();
 
-            //TODO update of given hymn
+            //TODO update of given hymn // need id of hymn as params
         } 
 
 }]); 
